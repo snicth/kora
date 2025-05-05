@@ -1,0 +1,9 @@
+Cargo.toml[package]
+name = "relayer_rpc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+relayer_lib = { path = "../relayer_lib" }
+warp = "0.3"  # Web framework for Rust
+tokio = { version = "1", features = ["full"] }
